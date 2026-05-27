@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//usr/local/bin/**)",
+      "Read(//Users/katelynsfiles/.npm-global/**)",
+      "Bash(brew list *)",
+      "Read(//Users/katelynsfiles/.claude/skills/**)",
+      "Read(//Users/katelynsfiles/.claude/**)",
+      "Bash(npm list *)",
+      "Bash(python3 -c \"from PIL import Image; print\\('Pillow OK'\\)\")",
+      "Bash(pip3 install *)",
+      "Bash(brew install *)",
+      "Bash(python3 tools/generate_assets.py)"
+    ]
+  }
+}
